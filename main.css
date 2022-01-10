@@ -1,9 +1,11 @@
 body,
+
+/* MISE EN PAGE DU MAIN */
 html {
   width: 100%;
   height: 100%;
   margin: 0;
-  background-image: url(images/background.png);
+  background-image: url(images/FaintAgedAmericanmarten-size_restricted.gif);
   background-size: cover;
   background-position: center;
   image-rendering: optimizeSpeed;
@@ -14,6 +16,7 @@ html {
   overflow: hidden;
 }
 
+/* STYLE DES CANARDS */
 .duck {
   position: absolute;
   background-image: url(images/duckhunt.png);
@@ -39,7 +42,9 @@ html {
 .duck.flap {
   background-position: -430px -160px;
 }
+
+/* ANIMATION DE LA MORT D'UN CANARD */
 .duck.shot {
   background-position: center;
-  background-image: url(images/shot.png);
+  background-image: url(images/ezgif.com-gif-maker.gif);
 }
